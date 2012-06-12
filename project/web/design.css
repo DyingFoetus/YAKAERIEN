@@ -1,0 +1,131 @@
+/* 
+    Document   : design
+    Created on : 23 mai 2012, 19:02:32
+    Author     : Vincent
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#header
+{
+    width: 80%;
+    height: 100px;
+    background-color: cyan;
+    margin: auto;
+    border-bottom-right-radius: 40px;
+    background-image: url("images/BLEU1.jpg");
+}
+
+#header_banniere
+{
+    width: 500px;
+    height: 100%;
+    float: left;
+    background-image: url("images/yaka_logo2.png");
+    z-index: auto;
+}
+
+#header_login
+{
+    width: 45%;
+    height: 95%;
+    float: right;
+    padding: 10px;
+}
+
+#center
+{
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    min-height: 800px;
+}
+
+#selected_avion
+{
+    width: 100%;
+    border-bottom: solid 1px grey;
+    padding: 5px;
+    text-align: center;
+}
+
+#mouves_planes
+{
+    width: 40%;
+    float: left;
+}
+#placement_manuel
+{
+    width: 50%;
+    float:right;
+    border-left: solid 1px black;
+    padding: 10px;
+}
+#center_page_name
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    width: 100%;
+    border-bottom: dashed 1px black;
+}
+
+#center_content
+{
+    text-align: left;
+    padding: 10px;
+}
+
+body
+{
+    background-color: black;
+    background-image: url("images/lignes.png");
+    background-repeat: repeat;
+}
+
+root { 
+    display: block;
+}
+
+.boutton
+{
+    padding: 20px;
+    min-width: 100px;
+    min-height: 50px;
+    border-radius: 20px;
+    border-color: black;
+    margin: 5px;
+}
+
+.table_t
+{
+    border-collapse: separate;
+    border-spacing: 2px;
+    margin-bottom: 1px;
+    width: 100%;
+}
+.tableTr
+{
+    background-color: rgb(130,136,176);
+    color: white;
+    font-size: 12px;
+    padding: 1px 1px;
+    text-align: center;
+}
+.tableTr a
+{
+    color:white;
+}
+
+.tableTdGreen
+{
+    background-color: rgb(230,230,230);
+    font-size: 12px;
+    padding: 2px 5px;
+    text-align: left;
+}
+
