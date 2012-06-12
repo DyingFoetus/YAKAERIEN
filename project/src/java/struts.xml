@@ -8,32 +8,5 @@
         <action name="Login" class="yakaerien.action.LoginAction">
             <result>/index.jsp</result>
         </action>
-        <action name="Target" class="yakaerien.action.TargetAction">
-            <result name="input">/login.jsp</result>
-            <result>/PlaneManagement.jsp</result>
-        </action>
-        <action name="Controleur" class="yakaerien.action.ControleurAction">
-            <result>/gestion_controlleur.jsp</result>
-        </action>
-        <action name="Parking" class="yakaerien.action.ParkingAction">
-            <result>/ParkingDisplay.jsp</result>
-        </action>
-		<action name="AddPlaneForm" class="yakaerien.action.AddPlaneValidateAction">
-            <result>/AddPlane.jsp</result>
-        </action>
-        <action name="AddPlane" class="yakaerien.action.AddPlaneAction">
-            <result name="input">/AddPlane.jsp</result>
-            <result>/PlaneManagement.jsp</result>
-        </action>
-        <action name="SearchPlane" class="yakaerien.action.SearchPlaneAction">
-            <result>/PlaneSearch.jsp</result>
-        </action>
-        <action name="SearchPlaneResult" class="yakaerien.action.SearchPlaneResultAction">
-            <result name="input">/PlaneSearch.jsp</result>
-            <result>/SearchDisplay.jsp</result>
-        </action>
-        <action name="History" class="yakaerien.action.HistoryAction">
-            <result>/History.jsp</result>
-        </action>
     </package>
 </struts>
